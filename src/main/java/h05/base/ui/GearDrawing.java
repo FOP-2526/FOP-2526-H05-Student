@@ -51,7 +51,7 @@ public class GearDrawing extends SvgBasedDrawing<Gear> {
         final int index;
         final int numberOfConditions = EquipmentCondition.values().length;
         if (equipment instanceof Tool) {
-            index = AVAILABLE_EQUIPMENTS.size() * numberOfConditions + AVAILABLE_TOOLS.indexOf(equipment.getName().toLowerCase());
+            index = AVAILABLE_EQUIPMENTS.size() * numberOfConditions + AVAILABLE_TOOLS.indexOf(equipment.getClass().getSimpleName());
         } else {
             index = AVAILABLE_EQUIPMENTS.indexOf(equipment.getClass().getSimpleName()) * numberOfConditions + equipment.getCondition().ordinal();
         }

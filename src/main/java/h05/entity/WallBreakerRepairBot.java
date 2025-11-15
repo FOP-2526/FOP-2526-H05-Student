@@ -56,7 +56,7 @@ public class WallBreakerRepairBot extends AbstractRepairBot {
             }
             while (destY != getY()) {
                 if (!isFrontClear()) {
-                    settings.removeEntity(settings.getWallAt(getX(), getY(), true));
+                    settings.removeEntity(settings.getWallAt(getX(), getY() - 1, true));
                 }
                 move();
             }

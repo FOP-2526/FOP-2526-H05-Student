@@ -87,18 +87,18 @@ public class Camera implements Equipment {
     @Override
     @StudentImplementationRequired("H5.1")
     public double getDurability() {
-        return org.tudalgo.algoutils.student.Student.crash(); // TODO: H5.3 - remove if implemented
+        return org.tudalgo.algoutils.student.Student.crash(); // TODO: H5.1 - remove if implemented
     }
 
     @Override
     @StudentImplementationRequired("H5.1")
     public void setDurability(double durability) {
-        org.tudalgo.algoutils.student.Student.crash(); // TODO: H5.3 - remove if implemented
+        org.tudalgo.algoutils.student.Student.crash(); // TODO: H5.1 - remove if implemented
     }
 
     @Override
     @StudentImplementationRequired("H5.1")
     public void reduceDurability(double amount) {
-        org.tudalgo.algoutils.student.Student.crash(); // TODO: H5.3 - remove if implemented
+        org.tudalgo.algoutils.student.Student.crash(); // TODO: H5.1 - remove if implemented
     }
 }

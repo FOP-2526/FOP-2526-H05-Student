@@ -38,18 +38,18 @@ public class WallBreaker implements UsableEquipment {
     @StudentImplementationRequired("H5.1")
     @Override
     public double getDurability() {
-        return org.tudalgo.algoutils.student.Student.crash(); // TODO: H5.3 - remove if implemented
+        return org.tudalgo.algoutils.student.Student.crash(); // TODO: H5.1 - remove if implemented
     }
 
     @StudentImplementationRequired("H5.1")
     @Override
     public void setDurability(double durability) {
-        org.tudalgo.algoutils.student.Student.crash(); // TODO: H5.3 - remove if implemented
+        org.tudalgo.algoutils.student.Student.crash(); // TODO: H5.1 - remove if implemented
     }
 
     @StudentImplementationRequired("H5.1")
     @Override
     public void reduceDurability(double amount) {
-        org.tudalgo.algoutils.student.Student.crash(); // TODO: H5.3 - remove if implemented
+        org.tudalgo.algoutils.student.Student.crash(); // TODO: H5.1 - remove if implemented
     }
 }
